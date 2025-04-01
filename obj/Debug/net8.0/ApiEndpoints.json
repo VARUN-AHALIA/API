@@ -1,0 +1,96 @@
+[
+  {
+    "ContainingType": "Apiexample1.Controllers.EmployeeController",
+    "Method": "GetALLEMP",
+    "RelativePath": "GetALLEMP",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetALLEMP"
+  },
+  {
+    "ContainingType": "Apiexample1.Controllers.EmployeeController",
+    "Method": "GetDeptController",
+    "RelativePath": "GetDeptController",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetDeptController"
+  },
+  {
+    "ContainingType": "Apiexample1.Controllers.EmployeeController",
+    "Method": "GetEmpController",
+    "RelativePath": "GetEmpController/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetEmpController"
+  },
+  {
+    "ContainingType": "Apiexample1.Controllers.EmployeeController",
+    "Method": "Getname",
+    "RelativePath": "GetName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Getname"
+  },
+  {
+    "ContainingType": "Apiexample1.Controllers.EmployeeController",
+    "Method": "PostEmployee",
+    "RelativePath": "PostEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "Apiexample1.Models.EmployeeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "postEmployee"
+  },
+  {
+    "ContainingType": "Apiexample1.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Apiexample1.WeatherForecast, Apiexample1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
